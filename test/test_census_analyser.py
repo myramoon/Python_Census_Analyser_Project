@@ -26,8 +26,8 @@ def test_count_records_in_state_code_data_csv_file(instance_of_census_analyser):
 
 def test_given_wrong_state_code_file_path_should_raise_exception(instance_of_census_analyser):
     with pytest.raises(WrongFilePathError):
-        instance_of_census_analyser.load_census_data(WRONG_STATE_CENSUS_DATA_PATH)
+        instance_of_census_analyser.load_census_data(WRONG_STATE_CODE_DATA_PATH)
 
 def test_given_wrong_state_code_file_extension_should_raise_exception(instance_of_census_analyser):
     with pytest.raises(WrongFileExtensionError):
-        instance_of_census_analyser.load_census_data(WRONG_FILE_EXTENSION)
+        instance_of_census_analyser.load_census_data(WRONG_STATE_CODE_FILE_EXTENSION)
