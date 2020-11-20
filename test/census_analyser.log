@@ -23,3 +23,16 @@ Traceback (most recent call last):
     with open(csv_file_path , 'r') as census_data:
 FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCensusData.csv'
 root | DEBUG | 2020-11-21 01:20:32,704 | Number of records: 29
+root | ERROR | 2020-11-21 01:26:56,385 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 15, in load_census_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCensusData.json'
+root | ERROR | 2020-11-21 01:45:55,657 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-21 01:49:19,751 | Number of records: 29
+root | ERROR | 2020-11-21 01:49:22,377 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 30, in load_census_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCensusData.csv'
