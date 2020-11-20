@@ -7,3 +7,6 @@ class CensusAnalyserError(Exception):
 
 class WrongFilePathError(CensusAnalyserError):
     pass
+
+class WrongFileExtensionError(CensusAnalyserError):
+    pass
