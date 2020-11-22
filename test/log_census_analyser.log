@@ -1,0 +1,311 @@
+root | ERROR | 2020-11-22 13:45:49,123 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 70, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 13:45:49,133 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 13:45:49,140 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 64, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 13:45:49,146 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 13:46:22,747 | Number of records: 29
+root | DEBUG | 2020-11-22 13:46:22,760 | Number of records: 37
+root | ERROR | 2020-11-22 13:46:22,764 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 70, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 13:46:22,778 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 13:46:22,781 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 64, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 13:46:22,787 | Exception occurred due to wrong file extension
+NoneType: None
+root | ERROR | 2020-11-22 13:46:45,021 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 70, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 13:46:45,031 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 13:46:45,037 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 64, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 13:46:45,041 | Exception occurred due to wrong file extension
+NoneType: None
+root | ERROR | 2020-11-22 13:48:05,666 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 70, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 13:48:05,677 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 13:48:05,684 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 64, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 13:48:05,693 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 13:48:14,159 | Number of records: 37
+root | ERROR | 2020-11-22 13:48:19,526 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 70, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 13:48:19,536 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 13:48:19,545 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 64, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 13:48:19,552 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 13:49:03,509 | Number of records: 29
+root | DEBUG | 2020-11-22 13:49:03,520 | Number of records: 37
+root | ERROR | 2020-11-22 13:49:03,530 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 69, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 13:49:03,540 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 13:49:03,545 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 63, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 13:49:03,550 | Exception occurred due to wrong file extension
+NoneType: None
+root | ERROR | 2020-11-22 15:20:26,456 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 70, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 15:20:26,466 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 15:20:26,471 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 64, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 15:20:26,477 | Exception occurred due to wrong file extension
+NoneType: None
+root | ERROR | 2020-11-22 15:22:36,260 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 70, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 15:22:36,269 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 15:22:36,272 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 64, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 15:22:36,276 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 15:23:12,024 | Number of records: 30
+root | DEBUG | 2020-11-22 15:23:43,364 | Number of records: 0
+root | DEBUG | 2020-11-22 15:24:23,025 | Number of records: 0
+root | DEBUG | 2020-11-22 15:26:12,654 | Number of records: 30
+root | DEBUG | 2020-11-22 15:26:36,629 | Number of records: 29
+root | ERROR | 2020-11-22 15:26:55,913 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 68, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 15:26:55,921 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 15:26:55,928 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 62, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 15:26:55,936 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 15:29:22,972 | Number of records: 35
+root | ERROR | 2020-11-22 15:29:23,033 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 15:29:23,040 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 62, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 15:29:23,046 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 15:30:50,392 | Number of records: 36
+root | ERROR | 2020-11-22 15:30:50,443 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 15:30:50,447 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 62, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 15:30:50,452 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 15:34:35,653 | Number of records: 36
+root | ERROR | 2020-11-22 15:34:35,702 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 15:34:35,705 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 62, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 15:34:35,709 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 15:34:44,321 | Number of records: 37
+root | DEBUG | 2020-11-22 15:34:48,954 | Number of records: 36
+root | DEBUG | 2020-11-22 15:37:05,974 | Number of records: 36
+root | DEBUG | 2020-11-22 15:37:25,129 | Number of records: 36
+root | DEBUG | 2020-11-22 15:37:36,476 | Number of records: 36
+root | DEBUG | 2020-11-22 15:37:43,038 | Number of records: 29
+root | DEBUG | 2020-11-22 15:37:43,043 | Number of records: 37
+root | DEBUG | 2020-11-22 15:37:43,050 | Number of records: 36
+root | ERROR | 2020-11-22 15:38:04,781 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 38, in load_census_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCensusData.csv'
+root | ERROR | 2020-11-22 15:38:04,789 | Exception occurred due to wrong file extension
+NoneType: None
+root | ERROR | 2020-11-22 15:38:04,811 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | DEBUG | 2020-11-22 15:38:04,820 | Number of records: 28
+root | ERROR | 2020-11-22 15:39:08,932 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 38, in load_census_data
+    with open(csv_file_path , 'r' , newline='') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCensusData.csv'
+root | ERROR | 2020-11-22 15:39:08,935 | Exception occurred due to wrong file extension
+NoneType: None
+root | ERROR | 2020-11-22 15:39:08,948 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | DEBUG | 2020-11-22 15:39:08,954 | Number of records: 28
+root | DEBUG | 2020-11-22 15:42:50,964 | Number of records: 36
+root | DEBUG | 2020-11-22 15:43:36,045 | Number of records: 36
+root | ERROR | 2020-11-22 15:44:35,740 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 69, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 15:44:49,391 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 69, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 15:44:49,400 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 15:44:49,407 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 63, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 15:44:49,413 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 15:44:52,863 | Number of records: 37
+root | ERROR | 2020-11-22 15:44:57,401 | Exception occurred due to improper header
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 69, in load_state_code_data
+    print(row['SrNo'],row['State Name'],row['TIN'],row['StateCode'])
+KeyError: 'SrNo'
+root | ERROR | 2020-11-22 15:44:57,410 | Exception occurred due to improper delimiter
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 17, in validate_delimiter
+    csv.Sniffer().sniff(csv_data.read(), delimiters=",")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/csv.py", line 187, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+root | ERROR | 2020-11-22 15:44:57,415 | Exception occurred due to wrong file path
+Traceback (most recent call last):
+  File "/Users/nusrat/PycharmProjects/census_analyser_project/main/census_analyser.py", line 63, in load_state_code_data
+    with open(csv_file_path , 'r') as census_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/nusrat/PycharmProjects/PythonProjects/census_analyser_project/main/IndiaStateCode.csv'
+root | ERROR | 2020-11-22 15:44:57,421 | Exception occurred due to wrong file extension
+NoneType: None
+root | DEBUG | 2020-11-22 15:45:07,374 | Number of records: 29
