@@ -73,7 +73,6 @@ class CensusAnalyser:
         self.load_census_data(csv_file_path)
         result = sorted(self.census_list, key = lambda x: x['State'])
         sorted_list = []
-        print(result)
         for list_item in result:
             sorted_list.append(json.dumps(list_item))
         logging.debug('start state and end state: {} {}'.format(result[0]['State'] , result[len(result) - 1]['State'] ))
