@@ -71,12 +71,12 @@ class CensusAnalyser:
         :return: tuple containing states at extremes after sorting
         """
         self.load_census_data(csv_file_path)
-        result = sorted(self.census_list, key = lambda x: x['State'])
+        result = sorted(self.census_list, key = lambda x: x.get('State'))
         sorted_list = []
         for list_item in result:
             sorted_list.append(json.dumps(list_item))
-        logging.debug('start state and end state: {} {}'.format(result[0]['State'] , result[len(result) - 1]['State'] ))
-        return result[0]['State'] , result[len(result) - 1]['State']
+        logging.debug('start state and end state: {} {}'.format(result[0].get('State') , result[len(result) - 1].get('State') ))
+        return result[0].get('State') , result[len(result) - 1].get('State')
 
     def sort_by_population(self , csv_file_path):
         """
@@ -84,11 +84,11 @@ class CensusAnalyser:
         :return: most populous state after sorting
         """
         self.load_census_data(csv_file_path)
-        result = sorted(self.census_list, key = lambda x: int(x['Population']) , reverse = True)
+        result = sorted(self.census_list, key = lambda x: int(x.get('Population')) , reverse = True)
         with open('sorted_by_population.json', 'w') as outfile:
             json.dump(result, outfile , indent = 4)
-        logging.debug('most populous state: {}'.format(int(result[0]['Population'])))
-        return int(result[0]['Population'])
+        logging.debug('most populous state: {}'.format(int(result[0].get('Population'))))
+        return int(result[0].get('Population'))
 
     def sort_by_state_code(self, csv_file_path):
         """
@@ -96,12 +96,12 @@ class CensusAnalyser:
         :return: tuple containing state codes at extremes after sorting
         """
         self.load_census_data(csv_file_path)
-        result = sorted(self.census_list, key=lambda x: x['StateCode'])
+        result = sorted(self.census_list, key=lambda x: x.get('StateCode'))
         sorted_list = []
         for list_item in result:
             sorted_list.append(json.dumps(list_item))
-        logging.debug('start state and end state : {} {}'.format(result[0]['StateCode'] , result[len(result) - 1]['StateCode'] ))
-        return result[0]['StateCode'], result[len(result) - 1]['StateCode']
+        logging.debug('start state and end state : {} {}'.format(result[0].get('StateCode') , result[len(result) - 1].get('StateCode') ))
+        return result[0].get('StateCode'), result[len(result) - 1].get('StateCode')
 
     def sort_by_population_density(self , csv_file_path):
         """
@@ -109,11 +109,11 @@ class CensusAnalyser:
         :return: most densely populous state after sorting
         """
         self.load_census_data(csv_file_path)
-        result = sorted(self.census_list, key = lambda x: int(x['DensityPerSqKm']) , reverse = True)
+        result = sorted(self.census_list, key = lambda x: int(x.get('DensityPerSqKm')) , reverse = True)
         with open('sorted_by_density_population.json', 'w') as outfile:
             json.dump(result, outfile , indent = 4)
-        logging.debug('most densely populous state: {}'.format(int(result[0]['DensityPerSqKm'])))
-        return int(result[0]['DensityPerSqKm'])
+        logging.debug('most densely populous state: {}'.format(int(result[0].get('DensityPerSqKm'))))
+        return int(result[0].get('DensityPerSqKm'))
 
     def sort_by_area(self , csv_file_path):
         """
@@ -121,10 +121,10 @@ class CensusAnalyser:
         :return: largest area state after sorting
         """
         self.load_census_data(csv_file_path)
-        result = sorted(self.census_list, key = lambda x: int(x['AreaInSqKm']) , reverse = True)
+        result = sorted(self.census_list, key = lambda x: int(x.get('AreaInSqKm')) , reverse = True)
         with open('sorted_by_area.json', 'w') as outfile:
             json.dump(result, outfile , indent = 4)
-        logging.debug('largest area state: {}'.format(int(result[0]['AreaInSqKm'])))
-        return int(result[0]['AreaInSqKm'])
+        logging.debug('largest area state: {}'.format(int(result[0].get('AreaInSqKm'))))
+        return int(result[0].get('AreaInSqKm'))
 
 
