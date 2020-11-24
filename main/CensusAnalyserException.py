@@ -15,3 +15,4 @@ class CensusAnalyserError(Exception):
         """
         self.type = args[0]
         self.message = args[1]
+
