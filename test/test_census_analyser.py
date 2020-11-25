@@ -45,30 +45,33 @@ def test_given_wrong_file_path_or_extension_should_raise_appropriate_exception(i
         instance_of_census_analyser.load_census_data(file_path)
 
 def test_start_state_in_sort_state_method_in_state_census_csv_file(instance_of_census_analyser):
-    state_tuple = instance_of_census_analyser.sort_by_state(STATE_CENSUS_DATA_PATH)
-    assert state_tuple[0] == "Andhra Pradesh"
+    result = instance_of_census_analyser.sort_by_state(STATE_CENSUS_DATA_PATH)
+    assert result[0].get('State') == "Andhra Pradesh"
 
 def test_end_state_in_sort_state_method_in_state_census_csv_file(instance_of_census_analyser):
-    state_tuple = instance_of_census_analyser.sort_by_state(STATE_CENSUS_DATA_PATH)
-    assert state_tuple[1] == "West Bengal"
+    result = instance_of_census_analyser.sort_by_state(STATE_CENSUS_DATA_PATH)
+    assert result[len(result) - 1].get('State') == "West Bengal"
 
 def test_start_state_in_sort_state_code_method_in_state_code_csv_file(instance_of_census_analyser):
-    state_tuple = instance_of_census_analyser.sort_by_state_code(STATE_CODE_PATH)
-    assert state_tuple[0] == "AD"
+    result = instance_of_census_analyser.sort_by_state_code(STATE_CODE_PATH)
+    assert result[0].get('StateCode') == "AD"
 
 def test_end_state_in_sort_state_code_method_in_state_code_csv_file(instance_of_census_analyser):
-    state_tuple = instance_of_census_analyser.sort_by_state_code(STATE_CODE_PATH)
-    assert state_tuple[1] == "WB"
+    result = instance_of_census_analyser.sort_by_state_code(STATE_CODE_PATH)
+    assert result[len(result) - 1].get('StateCode') == "WB"
 
 def test_most_populous_state_in_sort_population_method_in_state_census_csv_file(instance_of_census_analyser):
-    most_populous = instance_of_census_analyser.sort_by_population(STATE_CENSUS_DATA_PATH)
+    result = instance_of_census_analyser.sort_by_population(STATE_CENSUS_DATA_PATH)
+    most_populous = int(result[0].get('Population'))
     assert most_populous == 199812341
 
 def test_most_densely_populous_state_in_sort_population_density_method_in_state_census_csv_file(instance_of_census_analyser):
-    most_densely_populous = instance_of_census_analyser.sort_by_population_density(STATE_CENSUS_DATA_PATH)
+    result = instance_of_census_analyser.sort_by_population_density(STATE_CENSUS_DATA_PATH)
+    most_densely_populous = int(result[0].get('DensityPerSqKm'))
     assert most_densely_populous == 1102
 
 def test_largest_state_by_area_in_sort_area_method_in_state_census_csv_file(instance_of_census_analyser):
-    largest_area = instance_of_census_analyser.sort_by_area(STATE_CENSUS_DATA_PATH)
+    result = instance_of_census_analyser.sort_by_area(STATE_CENSUS_DATA_PATH)
+    largest_area = int(result[0].get('AreaInSqKm'))
     assert largest_area == 342239
 
